@@ -26,7 +26,7 @@ def score_game(game_core):
 
 def game_core_v3(number):
     count = 1
-    # Выбираем число 50, для уменьшения диапозона поиска вдвое
+    # Выбираем число 50, для уменьшения диапазона поиска вдвое
     predict = 50
     while number != predict:
         count+=1
